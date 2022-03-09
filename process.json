@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name": "Demo",
+            "script": "./server.js",
+            "env": {
+                "PORT": ""
+            },
+            "env_production": {
+                "PORT": 3002,
+                "DB_HOST": "devenv2022.cd2norchyjvi.ap-southeast-1.rds.amazonaws.com",
+                "DB_USER": "itdevteam",
+                "DB_PASS":  "itdevteam2022",
+                "DB_NAME": "support",
+                "ADMIN_KEYS": "yuuytiuyihvnbkhbngfyt"
+            }
+        }
+    ]
+}
